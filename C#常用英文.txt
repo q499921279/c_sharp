@@ -1,0 +1,17 @@
+ using          使用
+ system         系统              [ˈsɪstəm]
+ name space     命名空间           [neim speis]
+ Application    应用               [ˌæplɪˈkeɪʃn]
+ static         静态              [ˈstætɪk]
+ void           无效               [vɔɪd]
+ main           主要的             [meɪn]
+ console        控制台             [kən'səʊl]
+ write          写               [raɪt]
+ line           队列              [laɪn]
+ convert        转换              [kənˈvɜ:t]
+ public         公开              [ˈpʌblɪk]
+ private        私有的             [ˈpraɪvət]
+ internal       内部的             [ɪnˈtɜ:nl]
+ protected      受保护的            [prə'tektɪd]
+ 
+ 
