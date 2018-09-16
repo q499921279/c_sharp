@@ -218,6 +218,55 @@ namespace ZbyApplication    //namespace 声明 ZbyApplication命名空间包含�
  
  占位输出
  Console.WriteLine("Element[{0}] = {1}", j, n[j]);
+
+ 2018-09-16
+ 字符串
+
+ 字符串属性：
+ Chars
+ Length
+
+ Console.ReadKey(string a,atring b,[bool]);	//int 1:a>b 0:a=b -1:a<b true为不区分大小写
+
+ string c = String.Concat(a,b,....);	//连接多个个字符串
+
+ a.Contains(string b)	//bool 判断字符串a是否包含b(字符串查找)
+
+ String.Copy(a)	//字符串复制
+
+ a.CopyTo(int a开始位置,char[] attr, attr开始位置,拷贝长度)	//从字符串a中拷贝到数组attr a.CopyTo(3,attr,0,5);
+
+ a.EndsWith(b)	//bool 判断字符串a的结尾是否为字符串b
+
+ a.Equals(b)	//bool 判断两个字符串是否相等
+
+ String.Equals(a,b)	//bool 判断两个字符串是否相等
+
+ DateTime dt = new DateTime(2017,4,1,13,16,32,108);
+ String.Format();	//string.Format("{0:yyyy/MM/dd dddd}", dt);　//2017/04/01 星期六	格式化字符串 已其他形式展现
+
+ a.IndexOf([char,string]b);	//在字符串a中查找b的位置 不存在返回-1 字符串和char类型都行
+
+ a.IndexOfAny(char[] b,int);	//返回在数组b中 任意字符串 最早在a出现的位置	第二个参数可指定开始位置
+
+ a.Insert(2,b);	//在字符串a中指定位置插入字符串b
+
+ String.IsNullOrEmpty(a);	//判断字符串a是否为空
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
  
  
